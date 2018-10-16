@@ -1,0 +1,64 @@
+1538517906696	Sync.Service	INFO	Loading Weave 1.62.0
+1538517906698	Sync.Engine.Clients	DEBUG	Engine constructed
+1538517906700	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1538517906722	Sync.Engine.Clients	DEBUG	SyncEngine initialized: clients
+1538517906726	Sync.Engine.Addons	DEBUG	Engine constructed
+1538517906728	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1538517906730	Sync.AddonsReconciler	DEBUG	No data seen in loaded file: addonsreconciler
+1538517906732	Sync.Engine.Forms	DEBUG	Engine constructed
+1538517906736	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1538517906738	Sync.Engine.History	DEBUG	Engine constructed
+1538517906738	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1538517906742	Sync.Engine.Passwords	DEBUG	Engine constructed
+1538517906746	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1538517906748	Sync.Engine.Prefs	DEBUG	Engine constructed
+1538517906748	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1538517906750	Sync.Engine.Tabs	DEBUG	Engine constructed
+1538517906752	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1538517906752	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1538517906752	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1538517906752	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1538517906756	Sync.Engine.Addresses	DEBUG	Engine constructed
+1538517906756	Sync.Engine.Addresses	DEBUG	SyncEngine initialized: addresses
+1538517906756	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1538517906758	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1538517906762	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1538517906762	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1538517906762	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+1538517906764	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1538517906764	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1538517906764	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1538517906770	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1538517906770	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1538517906770	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1538597635878	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1538597635878	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1538597635878	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1538597635880	Sync.Service	DEBUG	User-Agent: Firefox/60.0a1 (Linux x86_64) FxSync/1.62.0.20180305100134.desktop
+1538597635880	Sync.Service	INFO	Starting sync at 2018-10-03 13:13:55 in browser session JbqBwuXsG9K9
+1538597635880	Sync.Service	DEBUG	In sync: should login.
+1538597635880	Sync.Service	INFO	User logged in successfully - verifying login.
+1538597635882	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState has no user
+1538597635882	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1538597635882	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1538597635882	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1538597635884	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1538597635884	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1538597635884	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1538597635886	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username (resource://services-sync/service.js:860:15) JS Stack trace: onNotify@service.js:860:15
+Async*WrappedNotify@util.js:179:27
+async*WrappedLock@util.js:135:22
+async*WrappedCatch@util.js:105:22
+async*login@service.js:871:12
+async*sync/<@service.js:1101:21
+async*WrappedCatch@util.js:105:22
+async*sync@service.js:1097:12
+async*syncIfMPUnlocked/<@policies.js:525:7
+1538597635886	Sync.Service	DEBUG	Not syncing: login returned false.
+1538597635888	Sync.ErrorHandler	DEBUG	Addons installed: 6
+1538597635888	Sync.ErrorHandler	DEBUG	 - Cookie Manager, version 1.4, id cookie-manager@robwu.nl
+1538597635888	Sync.ErrorHandler	DEBUG	 - FoxyProxy Standard, version 6.2, id foxyproxy@eric.h.jung
+1538597635888	Sync.ErrorHandler	DEBUG	 - New Tab Tools, version 89.1, id newtabtools@darktrojan.net
+1538597635890	Sync.ErrorHandler	DEBUG	 - Dark Mode, version 0.2.8, id {174b2d58-b983-4501-ab4b-07e71203cb43}
+1538597635890	Sync.ErrorHandler	DEBUG	 - Reddit Enhancement Suite, version 5.12.6, id jid1-xUfzOsOFlzSOXg@jetpack
+1538597635890	Sync.ErrorHandler	DEBUG	 - uBlock Origin, version 1.17.0, id uBlock0@raymondhill.net

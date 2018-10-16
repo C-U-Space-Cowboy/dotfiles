@@ -1,0 +1,33 @@
+1539204699864	Sync.LogManager	DEBUG	Flushing file log
+1539204699870	Sync.LogManager	DEBUG	Log cleanup threshold time: 1538340699870
+1539204699954	Sync.LogManager	DEBUG	Done deleting files.
+1539204700852	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1539204700852	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1539204700852	Sync.Service	DEBUG	User-Agent: Firefox/60.0a1 (Linux x86_64) FxSync/1.62.0.20180305100134.desktop
+1539204700852	Sync.Service	INFO	Starting sync at 2018-10-10 13:51:40 in browser session JbqBwuXsG9K9
+1539204700852	Sync.Service	DEBUG	In sync: should login.
+1539204700852	Sync.Service	INFO	User logged in successfully - verifying login.
+1539204700854	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState has no user
+1539204700854	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1539204700854	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1539204700854	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1539204700854	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1539204700856	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1539204700856	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1539204700860	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username (resource://services-sync/service.js:860:15) JS Stack trace: onNotify@service.js:860:15
+Async*WrappedNotify@util.js:179:27
+async*WrappedLock@util.js:135:22
+async*WrappedCatch@util.js:105:22
+async*login@service.js:871:12
+async*sync/<@service.js:1101:21
+async*WrappedCatch@util.js:105:22
+async*sync@service.js:1097:12
+async*syncIfMPUnlocked/<@policies.js:525:7
+1539204700862	Sync.Service	DEBUG	Not syncing: login returned false.
+1539204700864	Sync.ErrorHandler	DEBUG	Addons installed: 6
+1539204700864	Sync.ErrorHandler	DEBUG	 - Cookie Manager, version 1.4, id cookie-manager@robwu.nl
+1539204700864	Sync.ErrorHandler	DEBUG	 - FoxyProxy Standard, version 6.2, id foxyproxy@eric.h.jung
+1539204700864	Sync.ErrorHandler	DEBUG	 - New Tab Tools, version 89.1, id newtabtools@darktrojan.net
+1539204700864	Sync.ErrorHandler	DEBUG	 - Dark Mode, version 0.2.8, id {174b2d58-b983-4501-ab4b-07e71203cb43}
+1539204700864	Sync.ErrorHandler	DEBUG	 - Reddit Enhancement Suite, version 5.12.6, id jid1-xUfzOsOFlzSOXg@jetpack
+1539204700868	Sync.ErrorHandler	DEBUG	 - uBlock Origin, version 1.17.0, id uBlock0@raymondhill.net

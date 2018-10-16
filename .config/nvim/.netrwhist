@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/red/.config/nvim'
+let g:netrw_dirhist_2='/home/red/.config/termite'
+let g:netrw_dirhist_3='/srv/http/client-server/DBExample'
+let g:netrw_dirhist_4='/usr/lib/python3.6/site-packages/gobject'
+let g:netrw_dirhist_5='/usr/lib/python2.7/site-packages'
+let g:netrw_dirhist_6='/usr/lib/python2.7'
+let g:netrw_dirhist_7='/home/red/.config/nvim'
+let g:netrw_dirhist_8='/srv/http/richinternet/Week2_1'
+let g:netrw_dirhist_9='/home/red/.config/polybar'
