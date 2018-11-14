@@ -150,7 +150,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-client.focused			#474747 #000000 #0000fc #474747 #474747
+client.focused			#3cbcfc #000000 #0000fc #3cbcfc #3cbcfc
 client.focused_inactive	#474747 #000000 #3cbcfc #000000 #000000
 client.unfocused		#474747 #000000 #3cbcfc #000000 #000000
 client.urgent			#f83800 #000000 #f83800 #f83800 #f83800
@@ -163,3 +163,4 @@ new_float normal 1
 bindsym $mod+Shift+x exec i3lock -i ~/.config/i3/lockscreen.jpg
 exec_always --no-startup-id killall polybar; polybar primary
 exec compton -b
+exec feh --bg-fill ~/.config/i3/wallpaper.jpg
